@@ -1,12 +1,14 @@
-View app in AI Studio: https://ai.studio/apps/b5b80f77-b749-43a1-9327-f3d585b28987
+# astronaut-time-capsule
 
-## Run Locally
+A cinematic time capsule for astronauts to revisit memories of Earth. React, Vite and Tailwind, with the Gemini API behind a small Express server.
 
-**Prerequisites:**  Node.js
+```sh
+npm install
+cp .env.example .env.local   # set GEMINI_API_KEY
+npm run dev                  # http://localhost:3000
+```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to Gemini API key
-3. Run the app:
-   `npm run dev`
+| Path | Contents |
+| --- | --- |
+| `src/App.tsx` | Scene routing |
+| `src/components` | One view per scene: landing, memory, letter, panorama, AR |

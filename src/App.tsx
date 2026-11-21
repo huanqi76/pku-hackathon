@@ -13,7 +13,7 @@ import { ARMemoryView } from './components/ARMemoryView';
 import { TimeTravelAnimation } from './components/TimeTravelAnimation';
 import { DashboardView } from './components/DashboardView';
 
-const galaxyBg = '/src/assets/images/galaxy_background_1779617150828.png';
+const galaxyBg = '/src/assets/images/galaxy-background.png';
 
 export default function App() {
   const [step, setStep] = useState<CapsuleState>('landing_window');

@@ -87,7 +87,7 @@ export function SpaceshipLanding({ onZoomComplete }: Props) {
     }, 2200); // 2.2 seconds hyper drive zoom action
   };
 
-  const spaceshipEarthImage = '/src/assets/images/spaceship_earth_window_1779617964258.png';
+  const spaceshipEarthImage = '/src/assets/images/spaceship-earth-window.png';
   const isLastMessage = currentStep === stationMessages.length - 1;
 
   return (

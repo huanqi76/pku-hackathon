@@ -7,7 +7,7 @@ interface Props {
 }
 
 export function LetterView({ onBack }: Props) {
-  const vintageChildLetterImg = '/src/assets/images/vintage_child_letter_1779621511390.png';
+  const vintageChildLetterImg = '/src/assets/images/vintage-child-letter.png';
 
   return (
     <motion.div

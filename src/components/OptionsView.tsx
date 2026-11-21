@@ -12,7 +12,7 @@ interface Props {
 export function OptionsView({ onSelect, exploredMemories }: Props) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const galaxyBg = '/src/assets/images/galaxy_background_1779617150828.png';
+  const galaxyBg = '/src/assets/images/galaxy-background.png';
 
   const options = [
     { 

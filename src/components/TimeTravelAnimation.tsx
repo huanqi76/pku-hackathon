@@ -11,7 +11,7 @@ export function TimeTravelAnimation({ onComplete }: Props) {
   const [statusText, setStatusText] = useState('初始化时空引擎 ...');
   const [phase, setPhase] = useState<'fade-in' | 'warping' | 'arrival'>('fade-in');
 
-  const galaxyBg = '/src/assets/images/galaxy_background_1779617150828.png';
+  const galaxyBg = '/src/assets/images/galaxy-background.png';
 
   // Rapidly decrement year from 2138 to 2026
   useEffect(() => {
